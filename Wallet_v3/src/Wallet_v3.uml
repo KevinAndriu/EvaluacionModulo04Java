@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_sxtE0BD3Ee-tkuNv-p8OIA" name="Wallet_v3">
+    <eAnnotations xmi:id="_wI0KkBD3Ee-tkuNv-p8OIA" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_wI7fUBD3Ee-tkuNv-p8OIA" source="codegen">
+        <details xmi:id="_wI_wwBD3Ee-tkuNv-p8OIA" key="codegenDirectory" value="/Wallet_v3/src"/>
+        <details xmi:id="_zCIhEBD3Ee-tkuNv-p8OIA" key="AssociatedSourceCode" value="/Wallet_v3/src/com/wallet/entidades/Cuenta.java;1857297547/1;/Wallet_v3/src/com/wallet/conversor/ConvertidorMonedas.java;3797043343/1;/Wallet_v3/src/com/wallet/ejecucion/Main.java;2050830489/1;/Wallet_v3/src/com/wallet/entidades/Cliente.java;4099201782/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_waja0BD3Ee-tkuNv-p8OIA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_wakB4BD3Ee-tkuNv-p8OIA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_wakB4RD3Ee-tkuNv-p8OIA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_wakB4hD3Ee-tkuNv-p8OIA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_wakB4xD3Ee-tkuNv-p8OIA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_wako8BD3Ee-tkuNv-p8OIA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_wako8RD3Ee-tkuNv-p8OIA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_wako8hD3Ee-tkuNv-p8OIA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_walQABD3Ee-tkuNv-p8OIA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_wZuUYBD3Ee-tkuNv-p8OIA" name="com">
+      <packagedElement xmi:type="uml:Package" xmi:id="_wZu7cBD3Ee-tkuNv-p8OIA" name="wallet">
+        <packagedElement xmi:type="uml:Package" xmi:id="_wZxXsBD3Ee-tkuNv-p8OIA" name="entidades">
+          <packagedElement xmi:type="uml:Class" xmi:id="_wavoEBD3Ee-tkuNv-p8OIA" name="Cliente">
+            <ownedAttribute xmi:id="_wfflMBD3Ee-tkuNv-p8OIA" name="id">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_wfgMQBD3Ee-tkuNv-p8OIA" name="nombre">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_wfgzUBD3Ee-tkuNv-p8OIA" name="cuenta" type="_wa1usBD3Ee-tkuNv-p8OIA" association="_wf8RIBD3Ee-tkuNv-p8OIA"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wf2xkBD3Ee-tkuNv-p8OIA" name="Cliente" specification="_wfQ7sBD3Ee-tkuNv-p8OIA">
+              <ownedParameter xmi:id="_wf2xkRD3Ee-tkuNv-p8OIA" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_wf2xkhD3Ee-tkuNv-p8OIA" name="nombre">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_wf2xkxD3Ee-tkuNv-p8OIA" name="cuenta" type="_wa1usBD3Ee-tkuNv-p8OIA"/>
+              <ownedParameter xmi:id="_wf2xlBD3Ee-tkuNv-p8OIA" type="_wavoEBD3Ee-tkuNv-p8OIA" direction="return"/>
+              <language>java</language>
+              <body>this.id = id;
+		this.nombre = nombre;
+		this.cuenta = cuenta;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wf3YoBD3Ee-tkuNv-p8OIA" name="mostrarInformacion" specification="_wayrYBD3Ee-tkuNv-p8OIA">
+              <language>java</language>
+              <body>System.out.println(&quot;Id cliente :  &quot; + id);
+		System.out.println(&quot;Nombre cliente : &quot; + nombre);
+		System.out.println(&quot;Datos de la cuenta : &quot;);
+		cuenta.mostrarInformacion();
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_wayrYBD3Ee-tkuNv-p8OIA" name="mostrarInformacion" method="_wf3YoBD3Ee-tkuNv-p8OIA"/>
+            <ownedOperation xmi:id="_wfQ7sBD3Ee-tkuNv-p8OIA" name="Cliente" method="_wf2xkBD3Ee-tkuNv-p8OIA">
+              <eAnnotations xmi:id="_wfRiwxD3Ee-tkuNv-p8OIA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_wfRixBD3Ee-tkuNv-p8OIA" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_wfRiwBD3Ee-tkuNv-p8OIA" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_wfRiwRD3Ee-tkuNv-p8OIA" name="nombre">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_wfRiwhD3Ee-tkuNv-p8OIA" name="cuenta" type="_wa1usBD3Ee-tkuNv-p8OIA"/>
+              <ownedParameter xmi:id="_wfSJ0BD3Ee-tkuNv-p8OIA" type="_wavoEBD3Ee-tkuNv-p8OIA" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_wa1usBD3Ee-tkuNv-p8OIA" name="Cuenta">
+            <ownedAttribute xmi:id="_wfhaYBD3Ee-tkuNv-p8OIA" name="numeroCuenta">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_wfiBcBD3Ee-tkuNv-p8OIA" name="titular">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_wfiogBD3Ee-tkuNv-p8OIA" name="saldo" isStatic="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_wfkdsBD3Ee-tkuNv-p8OIA" name="next" visibility="private" isStatic="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wf3YoRD3Ee-tkuNv-p8OIA" name="Cuenta" specification="_wa4K8BD3Ee-tkuNv-p8OIA">
+              <ownedParameter xmi:id="_wf3YohD3Ee-tkuNv-p8OIA" type="_wa1usBD3Ee-tkuNv-p8OIA" direction="return">
+                <name xsi:nil="true"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>this.numeroCuenta = 0;
+		this.titular=&quot;&quot;;
+		Cuenta.saldo = 0.0;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wf3_sBD3Ee-tkuNv-p8OIA" name="Cuenta" specification="_wa6AIBD3Ee-tkuNv-p8OIA">
+              <ownedParameter xmi:id="_wf3_sRD3Ee-tkuNv-p8OIA" name="numeroCuenta">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_wf3_shD3Ee-tkuNv-p8OIA" name="titular">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_wf3_sxD3Ee-tkuNv-p8OIA" name="saldo">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_wf3_tBD3Ee-tkuNv-p8OIA" type="_wa1usBD3Ee-tkuNv-p8OIA" direction="return">
+                <name xsi:nil="true"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>this.numeroCuenta = numeroCuenta;
+		this.titular = titular;
+		Cuenta.saldo = saldo;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wf3_tRD3Ee-tkuNv-p8OIA" name="mostrarInformacion" specification="_wa6nMhD3Ee-tkuNv-p8OIA">
+              <language>java</language>
+              <body>System.out.println(&quot;Numero de cuenta:  &quot; + numeroCuenta);
+		System.out.println(&quot;Titular : &quot; + titular);
+		System.out.println(&quot;Saldo: &quot; + Cuenta.saldo);
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wf5N0BD3Ee-tkuNv-p8OIA" name="crearCuentaDesdeTeclado" specification="_wa7OQBD3Ee-tkuNv-p8OIA">
+              <ownedParameter xmi:id="_wf5N0RD3Ee-tkuNv-p8OIA" type="_wa1usBD3Ee-tkuNv-p8OIA" direction="return">
+                <name xsi:nil="true"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>Scanner scan = new Scanner(System.in);
+		
+		System.out.println(&quot;Ingrese el numero de cuenta:&quot;);
+		int numeroCuenta = scan.nextInt();
+		scan.nextLine();
+		
+		System.out.println(&quot;Ingrese el nombre del titular:&quot;);
+		String titular = scan.nextLine();
+		
+		System.out.println(&quot;Ingrese el saldo:&quot;);
+		double saldo = scan.nextDouble();
+		scan.next();
+		
+		return new Cuenta(numeroCuenta, titular, saldo);
+		
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wf504BD3Ee-tkuNv-p8OIA" name="depositar" specification="_wa9DcBD3Ee-tkuNv-p8OIA">
+              <language>java</language>
+              <body>Scanner scan = new Scanner(System.in);
+		System.out.println(&quot;Por favor ingrese la cantidad que de sea agregar&quot;);
+		double cantidad = scan.nextDouble();
+		if(cantidad > 0) {
+		double nuevoSaldo = saldo += cantidad;
+			System.out.println(&quot;Se ha ingresado &quot; + cantidad + &quot; en la cuenta, su saldo disponible es: &quot;+ nuevoSaldo );
+		}else {
+			System.out.println(&quot;Favor ingrese una cantidad para depositar&quot;);
+		}
+	
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wf504RD3Ee-tkuNv-p8OIA" name="retirar" specification="_wa9qgBD3Ee-tkuNv-p8OIA">
+              <language>java</language>
+              <body>Scanner scan = new Scanner(System.in);
+		System.out.println(&quot;Por favor ingrese el monto a retirar&quot;);
+		double cantidad = scan.nextDouble();
+		if (cantidad &lt; saldo) {
+			double saldoRestante =  saldo -= cantidad;
+			System.out.println(&quot;Se ha retirado &quot; + cantidad + &quot; de su cuenta &quot; + &quot;su saldo actual es: &quot; + saldoRestante);
+		}else {
+			
+			System.out.println(&quot;Fondos insuficientes por favor realice agregue dinero a su cuenta.&quot;);
+		}
+	return;	
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wf504hD3Ee-tkuNv-p8OIA" name="getSaldo" specification="_wa-RkBD3Ee-tkuNv-p8OIA">
+              <ownedParameter xmi:id="_wf504xD3Ee-tkuNv-p8OIA" direction="return">
+                <name xsi:nil="true"/>
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return saldo;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wf6b8BD3Ee-tkuNv-p8OIA" name="setSaldo" specification="_wa-4oBD3Ee-tkuNv-p8OIA">
+              <ownedParameter xmi:id="_wf6b8RD3Ee-tkuNv-p8OIA" name="saldo">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>Cuenta.saldo = saldo;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_wa4K8BD3Ee-tkuNv-p8OIA" name="Cuenta" method="_wf3YoRD3Ee-tkuNv-p8OIA">
+              <eAnnotations xmi:id="_wa4yABD3Ee-tkuNv-p8OIA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_wa4yARD3Ee-tkuNv-p8OIA" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_wa4yAhD3Ee-tkuNv-p8OIA" type="_wa1usBD3Ee-tkuNv-p8OIA" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_wa6AIBD3Ee-tkuNv-p8OIA" name="Cuenta" method="_wf3_sBD3Ee-tkuNv-p8OIA">
+              <eAnnotations xmi:id="_wa6AJBD3Ee-tkuNv-p8OIA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_wa6nMBD3Ee-tkuNv-p8OIA" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_wa6AIRD3Ee-tkuNv-p8OIA" name="numeroCuenta">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_wa6AIhD3Ee-tkuNv-p8OIA" name="titular">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_wa6AIxD3Ee-tkuNv-p8OIA" name="saldo">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_wa6nMRD3Ee-tkuNv-p8OIA" type="_wa1usBD3Ee-tkuNv-p8OIA" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_wa6nMhD3Ee-tkuNv-p8OIA" name="mostrarInformacion" method="_wf3_tRD3Ee-tkuNv-p8OIA"/>
+            <ownedOperation xmi:id="_wa7OQBD3Ee-tkuNv-p8OIA" name="crearCuentaDesdeTeclado" isStatic="true" method="_wf5N0BD3Ee-tkuNv-p8OIA">
+              <ownedParameter xmi:id="_wfTX8BD3Ee-tkuNv-p8OIA" type="_wa1usBD3Ee-tkuNv-p8OIA" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_wa9DcBD3Ee-tkuNv-p8OIA" name="depositar" isStatic="true" method="_wf504BD3Ee-tkuNv-p8OIA"/>
+            <ownedOperation xmi:id="_wa9qgBD3Ee-tkuNv-p8OIA" name="retirar" isStatic="true" method="_wf504RD3Ee-tkuNv-p8OIA"/>
+            <ownedOperation xmi:id="_wa-RkBD3Ee-tkuNv-p8OIA" name="getSaldo" method="_wf504hD3Ee-tkuNv-p8OIA">
+              <ownedParameter xmi:id="_wa-RkRD3Ee-tkuNv-p8OIA" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_wa-4oBD3Ee-tkuNv-p8OIA" name="setSaldo" method="_wf6b8BD3Ee-tkuNv-p8OIA">
+              <ownedParameter xmi:id="_wa-4oRD3Ee-tkuNv-p8OIA" name="saldo">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_wf8RIBD3Ee-tkuNv-p8OIA" name="" memberEnd="_wfgzUBD3Ee-tkuNv-p8OIA _wf8RIRD3Ee-tkuNv-p8OIA">
+            <ownedEnd xmi:id="_wf8RIRD3Ee-tkuNv-p8OIA" name="" type="_wavoEBD3Ee-tkuNv-p8OIA" association="_wf8RIBD3Ee-tkuNv-p8OIA"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_wZ5TgBD3Ee-tkuNv-p8OIA" name="conversor">
+          <packagedElement xmi:type="uml:Class" xmi:id="_wad7QBD3Ee-tkuNv-p8OIA" name="ConvertidorMonedas">
+            <ownedAttribute xmi:id="_wfZekBD3Ee-tkuNv-p8OIA" name="saldo" type="_wa1usBD3Ee-tkuNv-p8OIA" association="_wgBJoBD3Ee-tkuNv-p8OIA"/>
+            <ownedAttribute xmi:id="_wfassBD3Ee-tkuNv-p8OIA" name="tasaPesoDolar" visibility="package">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_wfbTwBD3Ee-tkuNv-p8OIA" value="929.89"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_wfb60RD3Ee-tkuNv-p8OIA" name="tasaPesoEuro" visibility="package">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_wfb60hD3Ee-tkuNv-p8OIA" value="1001.29"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_wfdI8BD3Ee-tkuNv-p8OIA" name="cantidadDisponible" visibility="package">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_wfdwABD3Ee-tkuNv-p8OIA" value="convertidorMonedas(saldo)"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_wfeXERD3Ee-tkuNv-p8OIA" name="scan" visibility="package" type="_wfMDMBD3Ee-tkuNv-p8OIA" association="_wgC-0RD3Ee-tkuNv-p8OIA">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_wfe-IBD3Ee-tkuNv-p8OIA" value="new Scanner(System.in)"/>
+            </ownedAttribute>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wfvc0BD3Ee-tkuNv-p8OIA" name="convertidorMonedas" specification="_wfOfcBD3Ee-tkuNv-p8OIA">
+              <ownedParameter xmi:id="_wfvc0RD3Ee-tkuNv-p8OIA" name="cuenta" type="_wa1usBD3Ee-tkuNv-p8OIA"/>
+              <ownedParameter xmi:id="_wfvc0hD3Ee-tkuNv-p8OIA" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>this.saldo = cuenta;&#xD;
+		return cantidadDisponible;&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wf1jcBD3Ee-tkuNv-p8OIA" name="conversor" specification="_wanFMBD3Ee-tkuNv-p8OIA">
+              <language>java</language>
+              <body>System.out.println(&quot;Por Favor elija manoneda que desea convertir&quot;);&#xD;
+		System.out.println(&quot;1. Peso a Dolar&quot;);&#xD;
+		System.out.println(&quot;2. Peso a Euro&quot;);&#xD;
+		System.out.println(&quot;3.Salir&quot;);&#xD;
+		int opcion = scan.nextInt();&#xD;
+&#xD;
+		if (opcion == 1) {&#xD;
+			System.out.println(&quot;Por Favor ingrese el monto que desea convertir&quot;);&#xD;
+			cantidadDisponible = scan.nextDouble();&#xD;
+			if (cantidadDisponible > tasaPesoDolar) {&#xD;
+&#xD;
+				double pesosDolares = cantidadDisponible / tasaPesoDolar;&#xD;
+				System.out.println(&quot;Su dinero fue convertido!!! usted Recibe:&quot; + pesosDolares + &quot;$&quot;);&#xD;
+			} else {&#xD;
+				System.out.println(&quot;Por favor ingrese un monto valido&quot;);&#xD;
+			} scan.next();&#xD;
+		} else if (opcion == 2) {&#xD;
+			System.out.println(&quot;Por Favor ingrese el monto que desea convertir&quot;);&#xD;
+			cantidadDisponible = scan.nextDouble();&#xD;
+			if (cantidadDisponible > tasaPesoEuro) {&#xD;
+				double pesosEuros = cantidadDisponible / tasaPesoEuro;&#xD;
+				System.out.println(&quot;Su dinero fue convertido!!! usted Recibe:&quot; + pesosEuros + &quot;€&quot;);&#xD;
+			} else {&#xD;
+				System.out.println(&quot;Por favor ingrese un monto valido&quot;);&#xD;
+			}scan.next();&#xD;
+		} else {&#xD;
+&#xD;
+			System.out.println(&quot;Por favor ingrese una opcion valida &quot;);&#xD;
+&#xD;
+		}&#xD;
+scan.close();&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_wanFMBD3Ee-tkuNv-p8OIA" name="conversor" method="_wf1jcBD3Ee-tkuNv-p8OIA"/>
+            <ownedOperation xmi:id="_wfOfcBD3Ee-tkuNv-p8OIA" name="convertidorMonedas" method="_wfvc0BD3Ee-tkuNv-p8OIA">
+              <ownedParameter xmi:id="_wfOfcRD3Ee-tkuNv-p8OIA" name="cuenta" type="_wa1usBD3Ee-tkuNv-p8OIA"/>
+              <ownedParameter xmi:id="_wfOfchD3Ee-tkuNv-p8OIA" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_wgBJoBD3Ee-tkuNv-p8OIA" name="" memberEnd="_wgBJoRD3Ee-tkuNv-p8OIA _wfZekBD3Ee-tkuNv-p8OIA">
+            <ownedEnd xmi:id="_wgBJoRD3Ee-tkuNv-p8OIA" name="" type="_wad7QBD3Ee-tkuNv-p8OIA" association="_wgBJoBD3Ee-tkuNv-p8OIA"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_wgC-0RD3Ee-tkuNv-p8OIA" name="" memberEnd="_wgC-0hD3Ee-tkuNv-p8OIA _wfeXERD3Ee-tkuNv-p8OIA">
+            <ownedEnd xmi:id="_wgC-0hD3Ee-tkuNv-p8OIA" name="" type="_wad7QBD3Ee-tkuNv-p8OIA" association="_wgC-0RD3Ee-tkuNv-p8OIA"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_wZ-zEBD3Ee-tkuNv-p8OIA" name="ejecucion">
+          <packagedElement xmi:type="uml:Class" xmi:id="_waskwBD3Ee-tkuNv-p8OIA" name="Main">
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wf2KgBD3Ee-tkuNv-p8OIA" name="main" specification="_waty4BD3Ee-tkuNv-p8OIA">
+              <ownedParameter xmi:id="_wf2KgRD3Ee-tkuNv-p8OIA" name="args">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wf2KghD3Ee-tkuNv-p8OIA" value="*"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>// Crear un cliente con una cuenta existente
+		Cuenta billetera1 = new Cuenta(12345, &quot;Juanito&quot;, 100000);
+		Cliente cliente1 = new Cliente(1, &quot;Juanito&quot;, billetera1);
+		Cuenta billetera2 = new Cuenta(3113, &quot;Ramon&quot;, 2100000);
+		Cliente cliente2 = new Cliente(2, &quot;Ramon&quot;, billetera2);
+		//Metodo que nos permite solicitar al usuario valores por consola y poder utilizarlo como eventos.
+		Scanner scan = new Scanner(System.in);
+
+		while (true) {
+
+			System.out.println(&quot;Bienvenido a su Billetera Virtual AlkeWallet Por Favor elija su operacion&quot;);
+			System.out.println(&quot;1.Crear Cuenta&quot;);
+			System.out.println(&quot;2. Realizar Deposito&quot;);
+			System.out.println(&quot;3.Realizar Retiro&quot;);
+			System.out.println(&quot;4.Convertidor de monedas internacionales&quot;);
+			System.out.println(&quot;5. Salir &quot;);
+			System.out.println(&quot;6. Mostrar lista de clientes&quot;);
+			
+
+			int opcion = scan.nextInt();
+
+			switch (opcion) {
+
+			case 1:
+				Cuenta.crearCuentaDesdeTeclado();
+				break;
+			case 2:
+				Cuenta.depositar();
+				break;
+			case 3:
+				Cuenta.retirar();
+				break;
+			case 4:
+				ConvertidorMonedas convertidor = new ConvertidorMonedas();
+				convertidor.conversor();
+				break;
+			case 5:
+				System.out.println(&quot;Saliendo del programa...&quot;);
+				break;
+			case 6:
+				cliente1.mostrarInformacion();
+				cliente2.mostrarInformacion();
+
+			default:
+				System.out.println(&quot;Por Favor Ingrese una opcion Validad&quot;);
+				scan.next();
+			}
+
+		}
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_waty4BD3Ee-tkuNv-p8OIA" name="main" isStatic="true" method="_wf2KgBD3Ee-tkuNv-p8OIA">
+              <ownedParameter xmi:id="_waty4RD3Ee-tkuNv-p8OIA" name="args">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wauZ8BD3Ee-tkuNv-p8OIA" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_wZx-wBD3Ee-tkuNv-p8OIA" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_wZx-wRD3Ee-tkuNv-p8OIA" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_wfMDMBD3Ee-tkuNv-p8OIA" name="Scanner"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_wJCNABD3Ee-tkuNv-p8OIA">
+      <eAnnotations xmi:id="_wJJhwBD3Ee-tkuNv-p8OIA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_wJOaQBD3Ee-tkuNv-p8OIA" base_Package="_sxtE0BD3Ee-tkuNv-p8OIA">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:Reference xmi:id="_wfNRUBD3Ee-tkuNv-p8OIA" base_Element="_wfMDMBD3Ee-tkuNv-p8OIA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_wfaFoBD3Ee-tkuNv-p8OIA" base_Element="_wfZekBD3Ee-tkuNv-p8OIA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_wfb60BD3Ee-tkuNv-p8OIA" base_Element="_wfassBD3Ee-tkuNv-p8OIA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_wfch4BD3Ee-tkuNv-p8OIA" base_Element="_wfb60RD3Ee-tkuNv-p8OIA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_wfeXEBD3Ee-tkuNv-p8OIA" base_Element="_wfdI8BD3Ee-tkuNv-p8OIA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_wfe-IRD3Ee-tkuNv-p8OIA" base_Element="_wfeXERD3Ee-tkuNv-p8OIA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_wfjPkBD3Ee-tkuNv-p8OIA" base_Element="_wfiogBD3Ee-tkuNv-p8OIA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_wflEwBD3Ee-tkuNv-p8OIA" base_Element="_wfkdsBD3Ee-tkuNv-p8OIA"/>
+  <UMLLabProfile:Reference xmi:id="_wgC-0BD3Ee-tkuNv-p8OIA" base_Element="_wgBJoBD3Ee-tkuNv-p8OIA"/>
+  <UMLLabProfile:Reference xmi:id="_wgE0ABD3Ee-tkuNv-p8OIA" base_Element="_wgC-0RD3Ee-tkuNv-p8OIA"/>
+</xmi:XMI>

@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_v2kkABD3Ee-tkuNv-p8OIA">
+  <modelElement href="Wallet_v3.uml#_wZu7cBD3Ee-tkuNv-p8OIA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_zFkPkBD3Ee-tkuNv-p8OIA" sourceAnchor="362.0,78.0" targetAnchor="214.0,270.0" target="_zGAUcBD3Ee-tkuNv-p8OIA" source="_zFmEyRD3Ee-tkuNv-p8OIA">
+    <modelElement href="Wallet_v3.uml#_wgBJoBD3Ee-tkuNv-p8OIA"/>
+    <bendpoints xmi:id="_zRAqkBD3Ee-tkuNv-p8OIA" sourceX="300" targetY="133"/>
+    <stereotypes xmi:id="_zFk2oBD3Ee-tkuNv-p8OIA" name="Reference">
+      <modelElement href="Wallet_v3.uml#_wgC-0BD3Ee-tkuNv-p8OIA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_zFk2oRD3Ee-tkuNv-p8OIA" text="">
+      <visualProperties xmi:id="_zRDt4BD3Ee-tkuNv-p8OIA" position="-230.99369970627885,-16.648847108567793"/>
+    </nameVisual>
+    <sourceRole xmi:id="_zFk2ohD3Ee-tkuNv-p8OIA" aggregationKind="NONE" name="">
+      <modelElement href="Wallet_v3.uml#_wgBJoRD3Ee-tkuNv-p8OIA"/>
+      <visualProperties xmi:id="_zRB4sRD3Ee-tkuNv-p8OIA" position="44.80425523578276,-33.93761948422292"/>
+      <visibility xmi:id="_zFk2oxD3Ee-tkuNv-p8OIA" label="+"/>
+      <cardinality xmi:id="_zFk2pBD3Ee-tkuNv-p8OIA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_zFk2pRD3Ee-tkuNv-p8OIA" aggregationKind="NONE" name="saldo" navigable="true">
+      <modelElement href="Wallet_v3.uml#_wfZekBD3Ee-tkuNv-p8OIA"/>
+      <visualProperties xmi:id="_zREU8BD3Ee-tkuNv-p8OIA" position="-205.68589599878783,99.76885754462148"/>
+      <stereotypes xmi:id="_G5LEEBGUEe-y-rEEsWHLMA" name="LegacyStyledElement">
+        <modelElement href="Wallet_v3.uml#_wfaFoBD3Ee-tkuNv-p8OIA"/>
+      </stereotypes>
+      <visibility xmi:id="_zFk2phD3Ee-tkuNv-p8OIA" label="+"/>
+      <cardinality xmi:id="_zFk2pxD3Ee-tkuNv-p8OIA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_zFmEwBD3Ee-tkuNv-p8OIA" source="_zFmEyRD3Ee-tkuNv-p8OIA">
+    <modelElement href="Wallet_v3.uml#_wgC-0RD3Ee-tkuNv-p8OIA"/>
+    <stereotypes xmi:id="_zFmEwRD3Ee-tkuNv-p8OIA" name="Reference">
+      <modelElement href="Wallet_v3.uml#_wgE0ABD3Ee-tkuNv-p8OIA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_zFmEwhD3Ee-tkuNv-p8OIA" text=""/>
+    <sourceRole xmi:id="_zFmEwxD3Ee-tkuNv-p8OIA" aggregationKind="NONE" name="">
+      <modelElement href="Wallet_v3.uml#_wgC-0hD3Ee-tkuNv-p8OIA"/>
+      <visibility xmi:id="_zFmExBD3Ee-tkuNv-p8OIA" label="+"/>
+      <cardinality xmi:id="_zFmExRD3Ee-tkuNv-p8OIA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_zFmExhD3Ee-tkuNv-p8OIA" aggregationKind="NONE" name="scan" navigable="true">
+      <modelElement href="Wallet_v3.uml#_wfeXERD3Ee-tkuNv-p8OIA"/>
+      <stereotypes xmi:id="_G5MSMBGUEe-y-rEEsWHLMA" name="LegacyStyledElement">
+        <modelElement href="Wallet_v3.uml#_wfe-IRD3Ee-tkuNv-p8OIA"/>
+      </stereotypes>
+      <visibility xmi:id="_zFmExxD3Ee-tkuNv-p8OIA" label="~"/>
+      <cardinality xmi:id="_zFmEyBD3Ee-tkuNv-p8OIA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_zG66cBD3Ee-tkuNv-p8OIA" sourceAnchor="427.0,135.0" targetAnchor="193.0,118.0" target="_zG-k0BD3Ee-tkuNv-p8OIA" source="_zGAUcBD3Ee-tkuNv-p8OIA">
+    <modelElement href="Wallet_v3.uml#_wf8RIBD3Ee-tkuNv-p8OIA"/>
+    <bendpoints xmi:id="_zRB4sBD3Ee-tkuNv-p8OIA" sourceX="273" targetY="190"/>
+    <nameVisual xmi:id="_zG7hgBD3Ee-tkuNv-p8OIA" text="">
+      <visualProperties xmi:id="_zRGKIBD3Ee-tkuNv-p8OIA" position="-212.21178642424468,1.9866527849465285"/>
+    </nameVisual>
+    <sourceRole xmi:id="_zG8IkBD3Ee-tkuNv-p8OIA" aggregationKind="NONE" name="cuenta" navigable="true">
+      <modelElement href="Wallet_v3.uml#_wfgzUBD3Ee-tkuNv-p8OIA"/>
+      <visualProperties xmi:id="_zRFjEBD3Ee-tkuNv-p8OIA" position="29.302387529925113,-12.817505045194451"/>
+      <visibility xmi:id="_zG99wBD3Ee-tkuNv-p8OIA" label="+"/>
+      <cardinality xmi:id="_zG9WsBD3Ee-tkuNv-p8OIA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_zG8IkRD3Ee-tkuNv-p8OIA" aggregationKind="NONE" name="">
+      <modelElement href="Wallet_v3.uml#_wf8RIRD3Ee-tkuNv-p8OIA"/>
+      <visualProperties xmi:id="_zRGKIRD3Ee-tkuNv-p8OIA" position="-187.70658849476604,178.00838678035575"/>
+      <visibility xmi:id="_zG99whD3Ee-tkuNv-p8OIA" label="+"/>
+      <cardinality xmi:id="_zG99wRD3Ee-tkuNv-p8OIA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_zEB-gBD3Ee-tkuNv-p8OIA" name="Main">
+    <modelElement href="Wallet_v3.uml#_waskwBD3Ee-tkuNv-p8OIA"/>
+    <visualProperties xmi:id="_zEB-gRD3Ee-tkuNv-p8OIA" position="30.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_zEB-ghD3Ee-tkuNv-p8OIA" label="+"/>
+    <operations xmi:id="_zEB-gxD3Ee-tkuNv-p8OIA" name="main" staticOperation="true">
+      <modelElement href="Wallet_v3.uml#_waty4BD3Ee-tkuNv-p8OIA"/>
+      <visibility xmi:id="_zEB-hBD3Ee-tkuNv-p8OIA" label="+"/>
+      <cardinality xmi:id="_zEB-hRD3Ee-tkuNv-p8OIA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_zEB-hhD3Ee-tkuNv-p8OIA" name="args">
+        <modelElement href="Wallet_v3.uml#_waty4RD3Ee-tkuNv-p8OIA"/>
+        <cardinality xmi:id="_zEB-hxD3Ee-tkuNv-p8OIA" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_zEB-iBD3Ee-tkuNv-p8OIA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_zFmEyRD3Ee-tkuNv-p8OIA" name="ConvertidorMonedas" associationsOut="_zFkPkBD3Ee-tkuNv-p8OIA _zFmEwBD3Ee-tkuNv-p8OIA">
+    <modelElement href="Wallet_v3.uml#_wad7QBD3Ee-tkuNv-p8OIA"/>
+    <visualProperties xmi:id="_zFmEyhD3Ee-tkuNv-p8OIA" position="-56.0,241.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_zFmEyxD3Ee-tkuNv-p8OIA" label="+"/>
+    <attributes xmi:id="_zFmr0BD3Ee-tkuNv-p8OIA" name="saldo">
+      <modelElement href="Wallet_v3.uml#_wfZekBD3Ee-tkuNv-p8OIA"/>
+      <stereotypes xmi:id="_G5udsBGUEe-y-rEEsWHLMA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_G5xhABGUEe-y-rEEsWHLMA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_G52ZgBGUEe-y-rEEsWHLMA" name="LegacyStyledElement"/>
+      <visibility xmi:id="_zFmr0hD3Ee-tkuNv-p8OIA" label="+"/>
+      <cardinality xmi:id="_zFmr0xD3Ee-tkuNv-p8OIA" label="1" max="1" min="1"/>
+      <type xmi:id="_zFmr1BD3Ee-tkuNv-p8OIA" name="Cuenta">
+        <modelElement href="Wallet_v3.uml#_wa1usBD3Ee-tkuNv-p8OIA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zFmr1RD3Ee-tkuNv-p8OIA" defaultValue="929.89" name="tasaPesoDolar">
+      <modelElement href="Wallet_v3.uml#_wfassBD3Ee-tkuNv-p8OIA"/>
+      <stereotypes xmi:id="_zFmr1hD3Ee-tkuNv-p8OIA" name="LegacyStyledElement">
+        <modelElement href="Wallet_v3.uml#_wfb60BD3Ee-tkuNv-p8OIA"/>
+      </stereotypes>
+      <visibility xmi:id="_zFmr1xD3Ee-tkuNv-p8OIA" label="~"/>
+      <cardinality xmi:id="_zFmr2BD3Ee-tkuNv-p8OIA" label="1" max="1" min="1"/>
+      <type xmi:id="_zFmr2RD3Ee-tkuNv-p8OIA" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zFmr2hD3Ee-tkuNv-p8OIA" defaultValue="1001.29" name="tasaPesoEuro">
+      <modelElement href="Wallet_v3.uml#_wfb60RD3Ee-tkuNv-p8OIA"/>
+      <stereotypes xmi:id="_zFmr2xD3Ee-tkuNv-p8OIA" name="LegacyStyledElement">
+        <modelElement href="Wallet_v3.uml#_wfch4BD3Ee-tkuNv-p8OIA"/>
+      </stereotypes>
+      <visibility xmi:id="_zFmr3BD3Ee-tkuNv-p8OIA" label="~"/>
+      <cardinality xmi:id="_zFmr3RD3Ee-tkuNv-p8OIA" label="1" max="1" min="1"/>
+      <type xmi:id="_zFmr3hD3Ee-tkuNv-p8OIA" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zFmr3xD3Ee-tkuNv-p8OIA" defaultValue="convertidorMonedas(saldo)" name="cantidadDisponible">
+      <modelElement href="Wallet_v3.uml#_wfdI8BD3Ee-tkuNv-p8OIA"/>
+      <stereotypes xmi:id="_zFmr4BD3Ee-tkuNv-p8OIA" name="LegacyStyledElement">
+        <modelElement href="Wallet_v3.uml#_wfeXEBD3Ee-tkuNv-p8OIA"/>
+      </stereotypes>
+      <visibility xmi:id="_zFmr4RD3Ee-tkuNv-p8OIA" label="~"/>
+      <cardinality xmi:id="_zFmr4hD3Ee-tkuNv-p8OIA" label="1" max="1" min="1"/>
+      <type xmi:id="_zFmr4xD3Ee-tkuNv-p8OIA" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zFmr5BD3Ee-tkuNv-p8OIA" defaultValue="new Scanner(System.in)" name="scan">
+      <modelElement href="Wallet_v3.uml#_wfeXERD3Ee-tkuNv-p8OIA"/>
+      <stereotypes xmi:id="_G5yvIBGUEe-y-rEEsWHLMA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_G5z9QBGUEe-y-rEEsWHLMA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_G54OsBGUEe-y-rEEsWHLMA" name="LegacyStyledElement"/>
+      <visibility xmi:id="_zFmr5hD3Ee-tkuNv-p8OIA" label="~"/>
+      <cardinality xmi:id="_zFmr5xD3Ee-tkuNv-p8OIA" label="1" max="1" min="1"/>
+      <type xmi:id="_zFmr6BD3Ee-tkuNv-p8OIA" name="Scanner">
+        <modelElement href="Wallet_v3.uml#_wfMDMBD3Ee-tkuNv-p8OIA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_zFmr6RD3Ee-tkuNv-p8OIA" name="conversor">
+      <modelElement href="Wallet_v3.uml#_wanFMBD3Ee-tkuNv-p8OIA"/>
+      <visibility xmi:id="_zFmr6hD3Ee-tkuNv-p8OIA" label="+"/>
+      <cardinality xmi:id="_zFmr6xD3Ee-tkuNv-p8OIA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_zFmr7BD3Ee-tkuNv-p8OIA" name="convertidorMonedas">
+      <modelElement href="Wallet_v3.uml#_wfOfcBD3Ee-tkuNv-p8OIA"/>
+      <visibility xmi:id="_zFmr7RD3Ee-tkuNv-p8OIA" label="+"/>
+      <cardinality xmi:id="_zFmr7hD3Ee-tkuNv-p8OIA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_zFmr7xD3Ee-tkuNv-p8OIA">
+        <modelElement href="Wallet_v3.uml#_wfOfchD3Ee-tkuNv-p8OIA"/>
+        <type xmi:id="_zFmr8BD3Ee-tkuNv-p8OIA" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_zFmr8RD3Ee-tkuNv-p8OIA" name="cuenta">
+        <modelElement href="Wallet_v3.uml#_wfOfcRD3Ee-tkuNv-p8OIA"/>
+        <cardinality xmi:id="_zFmr8hD3Ee-tkuNv-p8OIA" label="1" max="1" min="1"/>
+        <type xmi:id="_zFmr8xD3Ee-tkuNv-p8OIA" name="Cuenta">
+          <modelElement href="Wallet_v3.uml#_wa1usBD3Ee-tkuNv-p8OIA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_zGAUcBD3Ee-tkuNv-p8OIA" name="Cuenta" associationsIn="_zFkPkBD3Ee-tkuNv-p8OIA" associationsOut="_zG66cBD3Ee-tkuNv-p8OIA">
+    <modelElement href="Wallet_v3.uml#_wa1usBD3Ee-tkuNv-p8OIA"/>
+    <visualProperties xmi:id="_zGAUcRD3Ee-tkuNv-p8OIA" position="392.0,-84.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_zGAUchD3Ee-tkuNv-p8OIA" label="+"/>
+    <attributes xmi:id="_zGAUcxD3Ee-tkuNv-p8OIA" name="numeroCuenta">
+      <modelElement href="Wallet_v3.uml#_wfhaYBD3Ee-tkuNv-p8OIA"/>
+      <visibility xmi:id="_zGAUdBD3Ee-tkuNv-p8OIA" label="+"/>
+      <cardinality xmi:id="_zGAUdRD3Ee-tkuNv-p8OIA" label="1" max="1" min="1"/>
+      <type xmi:id="_zGAUdhD3Ee-tkuNv-p8OIA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zGAUdxD3Ee-tkuNv-p8OIA" name="titular">
+      <modelElement href="Wallet_v3.uml#_wfiBcBD3Ee-tkuNv-p8OIA"/>
+      <visibility xmi:id="_zGAUeBD3Ee-tkuNv-p8OIA" label="+"/>
+      <cardinality xmi:id="_zGAUeRD3Ee-tkuNv-p8OIA" label="1" max="1" min="1"/>
+      <type xmi:id="_zGAUehD3Ee-tkuNv-p8OIA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zGAUexD3Ee-tkuNv-p8OIA" name="saldo" staticAttribute="true">
+      <modelElement href="Wallet_v3.uml#_wfiogBD3Ee-tkuNv-p8OIA"/>
+      <stereotypes xmi:id="_zGAUfBD3Ee-tkuNv-p8OIA" name="LegacyStyledElement">
+        <modelElement href="Wallet_v3.uml#_wfjPkBD3Ee-tkuNv-p8OIA"/>
+      </stereotypes>
+      <visibility xmi:id="_zGAUfRD3Ee-tkuNv-p8OIA" label="+"/>
+      <cardinality xmi:id="_zGAUfhD3Ee-tkuNv-p8OIA" label="1" max="1" min="1"/>
+      <type xmi:id="_zGAUfxD3Ee-tkuNv-p8OIA" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zGAUgBD3Ee-tkuNv-p8OIA" name="next" staticAttribute="true">
+      <modelElement href="Wallet_v3.uml#_wfkdsBD3Ee-tkuNv-p8OIA"/>
+      <stereotypes xmi:id="_zGAUgRD3Ee-tkuNv-p8OIA" name="LegacyStyledElement">
+        <modelElement href="Wallet_v3.uml#_wflEwBD3Ee-tkuNv-p8OIA"/>
+      </stereotypes>
+      <visibility xmi:id="_zGAUghD3Ee-tkuNv-p8OIA" label="-"/>
+      <cardinality xmi:id="_zGAUgxD3Ee-tkuNv-p8OIA" label="1" max="1" min="1"/>
+      <type xmi:id="_zGAUhBD3Ee-tkuNv-p8OIA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_zGAUhRD3Ee-tkuNv-p8OIA" name="Cuenta">
+      <modelElement href="Wallet_v3.uml#_wa4K8BD3Ee-tkuNv-p8OIA"/>
+      <keywords xmi:id="_zGAUhhD3Ee-tkuNv-p8OIA" keyword="create"/>
+      <visibility xmi:id="_zGAUhxD3Ee-tkuNv-p8OIA" label="+"/>
+      <cardinality xmi:id="_zGAUiBD3Ee-tkuNv-p8OIA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_zGAUiRD3Ee-tkuNv-p8OIA">
+        <modelElement href="Wallet_v3.uml#_wa4yAhD3Ee-tkuNv-p8OIA"/>
+        <type xmi:id="_zGAUihD3Ee-tkuNv-p8OIA" name="Cuenta">
+          <modelElement href="Wallet_v3.uml#_wa1usBD3Ee-tkuNv-p8OIA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_zGAUixD3Ee-tkuNv-p8OIA" name="Cuenta">
+      <modelElement href="Wallet_v3.uml#_wa6AIBD3Ee-tkuNv-p8OIA"/>
+      <keywords xmi:id="_zGAUjBD3Ee-tkuNv-p8OIA" keyword="create"/>
+      <visibility xmi:id="_zGAUjRD3Ee-tkuNv-p8OIA" label="+"/>
+      <cardinality xmi:id="_zGAUjhD3Ee-tkuNv-p8OIA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_zGAUjxD3Ee-tkuNv-p8OIA">
+        <modelElement href="Wallet_v3.uml#_wa6nMRD3Ee-tkuNv-p8OIA"/>
+        <type xmi:id="_zGAUkBD3Ee-tkuNv-p8OIA" name="Cuenta">
+          <modelElement href="Wallet_v3.uml#_wa1usBD3Ee-tkuNv-p8OIA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_zGAUkRD3Ee-tkuNv-p8OIA" name="numeroCuenta">
+        <modelElement href="Wallet_v3.uml#_wa6AIRD3Ee-tkuNv-p8OIA"/>
+        <cardinality xmi:id="_zGAUkhD3Ee-tkuNv-p8OIA" label="1" max="1" min="1"/>
+        <type xmi:id="_zGAUkxD3Ee-tkuNv-p8OIA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_zGAUlBD3Ee-tkuNv-p8OIA" name="titular">
+        <modelElement href="Wallet_v3.uml#_wa6AIhD3Ee-tkuNv-p8OIA"/>
+        <cardinality xmi:id="_zGAUlRD3Ee-tkuNv-p8OIA" label="1" max="1" min="1"/>
+        <type xmi:id="_zGAUlhD3Ee-tkuNv-p8OIA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_zGAUlxD3Ee-tkuNv-p8OIA" name="saldo">
+        <modelElement href="Wallet_v3.uml#_wa6AIxD3Ee-tkuNv-p8OIA"/>
+        <cardinality xmi:id="_zGAUmBD3Ee-tkuNv-p8OIA" label="1" max="1" min="1"/>
+        <type xmi:id="_zGAUmRD3Ee-tkuNv-p8OIA" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_zGAUmhD3Ee-tkuNv-p8OIA" name="mostrarInformacion">
+      <modelElement href="Wallet_v3.uml#_wa6nMhD3Ee-tkuNv-p8OIA"/>
+      <visibility xmi:id="_zGAUmxD3Ee-tkuNv-p8OIA" label="+"/>
+      <cardinality xmi:id="_zGAUnBD3Ee-tkuNv-p8OIA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_zGAUnRD3Ee-tkuNv-p8OIA" name="crearCuentaDesdeTeclado" staticOperation="true">
+      <modelElement href="Wallet_v3.uml#_wa7OQBD3Ee-tkuNv-p8OIA"/>
+      <visibility xmi:id="_zGAUnhD3Ee-tkuNv-p8OIA" label="+"/>
+      <cardinality xmi:id="_zGAUnxD3Ee-tkuNv-p8OIA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_zGAUoBD3Ee-tkuNv-p8OIA">
+        <modelElement href="Wallet_v3.uml#_wfTX8BD3Ee-tkuNv-p8OIA"/>
+        <type xmi:id="_zGAUoRD3Ee-tkuNv-p8OIA" name="Cuenta">
+          <modelElement href="Wallet_v3.uml#_wa1usBD3Ee-tkuNv-p8OIA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_zGAUohD3Ee-tkuNv-p8OIA" name="depositar" staticOperation="true">
+      <modelElement href="Wallet_v3.uml#_wa9DcBD3Ee-tkuNv-p8OIA"/>
+      <visibility xmi:id="_zGAUoxD3Ee-tkuNv-p8OIA" label="+"/>
+      <cardinality xmi:id="_zGAUpBD3Ee-tkuNv-p8OIA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_zGAUpRD3Ee-tkuNv-p8OIA" name="retirar" staticOperation="true">
+      <modelElement href="Wallet_v3.uml#_wa9qgBD3Ee-tkuNv-p8OIA"/>
+      <visibility xmi:id="_zGAUphD3Ee-tkuNv-p8OIA" label="+"/>
+      <cardinality xmi:id="_zGAUpxD3Ee-tkuNv-p8OIA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_zGAUqBD3Ee-tkuNv-p8OIA" name="getSaldo">
+      <modelElement href="Wallet_v3.uml#_wa-RkBD3Ee-tkuNv-p8OIA"/>
+      <visibility xmi:id="_zGAUqRD3Ee-tkuNv-p8OIA" label="+"/>
+      <cardinality xmi:id="_zGAUqhD3Ee-tkuNv-p8OIA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_zGAUqxD3Ee-tkuNv-p8OIA">
+        <modelElement href="Wallet_v3.uml#_wa-RkRD3Ee-tkuNv-p8OIA"/>
+        <type xmi:id="_zGAUrBD3Ee-tkuNv-p8OIA" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_zGAUrRD3Ee-tkuNv-p8OIA" name="setSaldo">
+      <modelElement href="Wallet_v3.uml#_wa-4oBD3Ee-tkuNv-p8OIA"/>
+      <visibility xmi:id="_zGAUrhD3Ee-tkuNv-p8OIA" label="+"/>
+      <cardinality xmi:id="_zGAUrxD3Ee-tkuNv-p8OIA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_zGAUsBD3Ee-tkuNv-p8OIA" name="saldo">
+        <modelElement href="Wallet_v3.uml#_wa-4oRD3Ee-tkuNv-p8OIA"/>
+        <cardinality xmi:id="_zGAUsRD3Ee-tkuNv-p8OIA" label="1" max="1" min="1"/>
+        <type xmi:id="_zGAUshD3Ee-tkuNv-p8OIA" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_zG-k0BD3Ee-tkuNv-p8OIA" name="Cliente" associationsIn="_zG66cBD3Ee-tkuNv-p8OIA">
+    <modelElement href="Wallet_v3.uml#_wavoEBD3Ee-tkuNv-p8OIA"/>
+    <visualProperties xmi:id="_zG-k0RD3Ee-tkuNv-p8OIA" position="899.0,-257.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_zG-k0hD3Ee-tkuNv-p8OIA" label="+"/>
+    <attributes xmi:id="_zG-k0xD3Ee-tkuNv-p8OIA" name="id">
+      <modelElement href="Wallet_v3.uml#_wfflMBD3Ee-tkuNv-p8OIA"/>
+      <visibility xmi:id="_zG-k1BD3Ee-tkuNv-p8OIA" label="+"/>
+      <cardinality xmi:id="_zG-k1RD3Ee-tkuNv-p8OIA" label="1" max="1" min="1"/>
+      <type xmi:id="_zG-k1hD3Ee-tkuNv-p8OIA" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zG-k1xD3Ee-tkuNv-p8OIA" name="nombre">
+      <modelElement href="Wallet_v3.uml#_wfgMQBD3Ee-tkuNv-p8OIA"/>
+      <visibility xmi:id="_zG-k2BD3Ee-tkuNv-p8OIA" label="+"/>
+      <cardinality xmi:id="_zG-k2RD3Ee-tkuNv-p8OIA" label="1" max="1" min="1"/>
+      <type xmi:id="_zG-k2hD3Ee-tkuNv-p8OIA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zG-k2xD3Ee-tkuNv-p8OIA" name="cuenta">
+      <modelElement href="Wallet_v3.uml#_wfgzUBD3Ee-tkuNv-p8OIA"/>
+      <visibility xmi:id="_zG-k3BD3Ee-tkuNv-p8OIA" label="+"/>
+      <cardinality xmi:id="_zG-k3RD3Ee-tkuNv-p8OIA" label="1" max="1" min="1"/>
+      <type xmi:id="_zG-k3hD3Ee-tkuNv-p8OIA" name="Cuenta">
+        <modelElement href="Wallet_v3.uml#_wa1usBD3Ee-tkuNv-p8OIA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_zG-k3xD3Ee-tkuNv-p8OIA" name="mostrarInformacion">
+      <modelElement href="Wallet_v3.uml#_wayrYBD3Ee-tkuNv-p8OIA"/>
+      <visibility xmi:id="_zG-k4BD3Ee-tkuNv-p8OIA" label="+"/>
+      <cardinality xmi:id="_zG-k4RD3Ee-tkuNv-p8OIA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_zG-k4hD3Ee-tkuNv-p8OIA" name="Cliente">
+      <modelElement href="Wallet_v3.uml#_wfQ7sBD3Ee-tkuNv-p8OIA"/>
+      <keywords xmi:id="_zG-k4xD3Ee-tkuNv-p8OIA" keyword="create"/>
+      <visibility xmi:id="_zG-k5BD3Ee-tkuNv-p8OIA" label="+"/>
+      <cardinality xmi:id="_zG-k5RD3Ee-tkuNv-p8OIA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_zG-k5hD3Ee-tkuNv-p8OIA">
+        <modelElement href="Wallet_v3.uml#_wfSJ0BD3Ee-tkuNv-p8OIA"/>
+        <type xmi:id="_zG-k5xD3Ee-tkuNv-p8OIA" name="Cliente">
+          <modelElement href="Wallet_v3.uml#_wavoEBD3Ee-tkuNv-p8OIA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_zG-k6BD3Ee-tkuNv-p8OIA" name="id">
+        <modelElement href="Wallet_v3.uml#_wfRiwBD3Ee-tkuNv-p8OIA"/>
+        <cardinality xmi:id="_zG-k6RD3Ee-tkuNv-p8OIA" label="1" max="1" min="1"/>
+        <type xmi:id="_zG-k6hD3Ee-tkuNv-p8OIA" name="long">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_zG-k6xD3Ee-tkuNv-p8OIA" name="nombre">
+        <modelElement href="Wallet_v3.uml#_wfRiwRD3Ee-tkuNv-p8OIA"/>
+        <cardinality xmi:id="_zG-k7BD3Ee-tkuNv-p8OIA" label="1" max="1" min="1"/>
+        <type xmi:id="_zG-k7RD3Ee-tkuNv-p8OIA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_zG-k7hD3Ee-tkuNv-p8OIA" name="cuenta">
+        <modelElement href="Wallet_v3.uml#_wfRiwhD3Ee-tkuNv-p8OIA"/>
+        <cardinality xmi:id="_zG-k7xD3Ee-tkuNv-p8OIA" label="1" max="1" min="1"/>
+        <type xmi:id="_zG-k8BD3Ee-tkuNv-p8OIA" name="Cuenta">
+          <modelElement href="Wallet_v3.uml#_wa1usBD3Ee-tkuNv-p8OIA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
